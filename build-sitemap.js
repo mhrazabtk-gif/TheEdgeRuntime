@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://the-edge-runtime.pages.dev';
+const DOMAIN = 'https://the-edge-runtime.pageaura.xyz';
 const KEY = '0b541bfa938e45a6ab2cfffc7e3ee780';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'the-edge-runtime.pages.dev' ||
+    url.hostname.toLowerCase() !== 'the-edge-runtime.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password

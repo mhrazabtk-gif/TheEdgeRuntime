@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'the-edge-runtime.pages.dev';
+const HOST = 'the-edge-runtime.pageaura.xyz';
 const KEY = '0b541bfa938e45a6ab2cfffc7e3ee780';
-const KEY_LOCATION = `https://the-edge-runtime.pages.dev/0b541bfa938e45a6ab2cfffc7e3ee780.txt`;
+const KEY_LOCATION = `https://the-edge-runtime.pageaura.xyz/0b541bfa938e45a6ab2cfffc7e3ee780.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
